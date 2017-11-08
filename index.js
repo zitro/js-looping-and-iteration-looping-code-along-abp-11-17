@@ -5,7 +5,7 @@ function printBadges(people){
 for(i=0; i<people.length; i++){
   console.log('Welcome ${peolpe[i]}! You are employee #${i + 1}.');
 }
-
+return people;
 }
 
 
