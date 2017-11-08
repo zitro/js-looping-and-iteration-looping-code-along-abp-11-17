@@ -1,4 +1,14 @@
 // Code your solutions in this file
+
+
+function printBadges(){
+for(i=0; i<printBadges.length; i++){
+  console.log(printBadges[i]);
+}
+  
+}
+
+
 function tailsNeverFails () {
   let tails = 0;
 
