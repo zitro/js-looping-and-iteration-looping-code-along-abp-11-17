@@ -1,11 +1,11 @@
 // Code your solutions in this file
 
 
-function printBadges(){
-for(i=0; i<printBadges.length; i++){
-  console.log(printBadges[i]);
+function printBadges(people){
+for(i=0; i<people.length; i++){
+  console.log('Welcome ${peolpe[i]}! You are employee #${i + 1}.');
 }
-  
+
 }
 
 
